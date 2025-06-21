@@ -1,5 +1,8 @@
-## CST8917-Lab Work
+# CST8917-Lab Work
 ## Lab 2: Build an Intelligent PDF Summarizer using Azure Durable Functions
+## View Demo Video
+[Video Demo Link ](https://www.youtube.com/watch?v=v4vDoacWnQM)
+
 ### Azure Durable Functions
 #### Azure Durable Functions is an extension of Azure Functions that lets you write stateful workflows in a serverless environment. In short, they make it easy to orchestrate long-running, stateful, and reliable workflows using code—without worrying about the underlying infrastructure.
 
@@ -58,3 +61,4 @@ Start the Function App: Start the function app to run the application locally.
 Upload PDFs to the input container. That will execute the blob storage trigger in your Durable Function.
 
 After several seconds, your appliation should have finished the orchestrations. Switch to the output container and notice that the PDFs have been summarized as new files.
+
