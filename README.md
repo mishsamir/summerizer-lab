@@ -5,13 +5,16 @@
 
 #### Core Concepts Durable Functions = Serverless + Orchestration + State
 
-Serverless: You only pay for what you use, and Microsoft manages the servers.
+#### Serverless: 
+#### You only pay for what you use, and Microsoft manages the servers.
 
-Orchestration: You can coordinate the execution of other functions, including sequential, parallel, or even human-interaction steps.
+#### Orchestration: 
+You can coordinate the execution of other functions, including sequential, parallel, or even human-interaction steps.
 
-Stateful: Durable Functions keep track of the workflow's progress and state, so you don’t have to manage this yourself.
+#### Stateful:
+ Durable Functions keep track of the workflow's progress and state, so you don’t have to manage this yourself.
 
-The application's workflow is as follows:
+#### The application's workflow is as follows:
 
 Trigger: Listens for new blobs (PDFs) in the input container.
 
